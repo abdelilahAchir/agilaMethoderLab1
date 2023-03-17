@@ -8,3 +8,4 @@ git blame [filename]: Shows who made changes to a specified file.
 git clean: Deletes untracked files.
 git bisect: Helps identify which commit introduced a bug.
 git submodule: Manages submodules in a repository.
+git show-branch: Shows the branch structure of a repository.
