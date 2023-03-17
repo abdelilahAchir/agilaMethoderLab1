@@ -6,3 +6,4 @@ git rebase [branch]: Reapplies commits on top of another branch.
 git clone --depth 1 [url]: Clones a remote repository with only the most recent commit.
 git blame [filename]: Shows who made changes to a specified file.
 git clean: Deletes untracked files.
+git bisect: Helps identify which commit introduced a bug.
