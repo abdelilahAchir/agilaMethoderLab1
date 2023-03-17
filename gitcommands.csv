@@ -4,3 +4,4 @@ git pull [remote] [branch]: Fetches and merges changes from a remote branch.
 git cherry-pick [commit hash]: Applies the changes made in a specified commit to the current branch.
 git rebase [branch]: Reapplies commits on top of another branch.
 git clone --depth 1 [url]: Clones a remote repository with only the most recent commit.
+git blame [filename]: Shows who made changes to a specified file.
