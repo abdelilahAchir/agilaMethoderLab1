@@ -13,3 +13,4 @@ git reflog: Lists all actions taken in a repository.
 git archive: Creates a .tar or .zip archive of the repository.
 git log --graph: Displays a graph of the commit history.
 git grep: Searches for text in files in the repository.
+git reset --soft [commit hash]: Resets the repository
