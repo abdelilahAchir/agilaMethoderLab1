@@ -8,3 +8,4 @@ git stash, Stashes changes in the working directory for later use.
 git stash apply, Applies the most recent stash.
 git stash list, Lists all stashes.
 git stash drop, Deletes the most recent stash.
+git remote, Lists all remote repositories.
