@@ -1,1 +1,15 @@
-
+git reset --hard, Resets the repository to the last commit.
+git revert [commit hash], Reverts changes made in a specified commit.
+git tag, Lists all tags.
+git tag [tag name], Creates a new tag.
+git tag -d [tag name], Deletes a tag.
+git show [commit hash], Shows the changes made in a specified commit.
+git stash, Stashes changes in the working directory for later use.
+git stash apply, Applies the most recent stash.
+git stash list, Lists all stashes.
+git stash drop, Deletes the most recent stash.
+git remote, Lists all remote repositories.
+git remote add [name] [url], Adds a new remote repository.
+git remote rm [name], Removes a remote repository.
+git fetch [remote], Fetches changes from a remote repository.
+git merge [remote]/[branch], Merges changes from a remote branch into the current branch.
