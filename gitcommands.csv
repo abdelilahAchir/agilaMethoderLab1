@@ -1,2 +1,3 @@
 git reset --hard, Resets the repository to the last commit.
 git revert [commit hash], Reverts changes made in a specified commit.
+git tag, Lists all tags.
