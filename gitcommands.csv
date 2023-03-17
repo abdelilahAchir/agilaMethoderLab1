@@ -1,2 +1,3 @@
 git merge [remote]/[branch]: Merges changes from a remote branch into the current branch.
 git push [remote] [branch]: Pushes committed changes to a remote branch.
+git pull [remote] [branch]: Fetches and merges changes from a remote branch.
