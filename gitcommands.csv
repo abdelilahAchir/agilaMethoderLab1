@@ -9,3 +9,4 @@ git branch, Lists all local branches.
 git branch [branch name], Creates a new branch with the specified name.
 git branch -d [branch name], Deletes a branch.
 git checkout [branch name], Switches to the specified branch.
+git merge [branch name], Merges changes from the specified branch into the current branch.
