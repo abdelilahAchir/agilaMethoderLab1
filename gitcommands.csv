@@ -4,3 +4,4 @@ git status, Displays the current status of the repository.
 git add [filename], Adds a file to the staging area.
 git commit -m "message": Commits changes with a message describing the changes.
 git push: Pushes committed changes to a remote repository.
+git pull: Fetches and merges changes from a remote repository.
