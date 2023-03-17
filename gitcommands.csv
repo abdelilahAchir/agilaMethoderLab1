@@ -10,3 +10,4 @@ git bisect: Helps identify which commit introduced a bug.
 git submodule: Manages submodules in a repository.
 git show-branch: Shows the branch structure of a repository.
 git reflog: Lists all actions taken in a repository.
+git archive: Creates a .tar or .zip archive of the repository.
