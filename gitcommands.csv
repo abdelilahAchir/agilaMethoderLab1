@@ -12,3 +12,4 @@ git remote, Lists all remote repositories.
 git remote add [name] [url], Adds a new remote repository.
 git remote rm [name], Removes a remote repository.
 git fetch [remote], Fetches changes from a remote repository.
+git merge [remote]/[branch], Merges changes from a remote branch into the current branch.
