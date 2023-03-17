@@ -7,3 +7,4 @@ git clone --depth 1 [url]: Clones a remote repository with only the most recent 
 git blame [filename]: Shows who made changes to a specified file.
 git clean: Deletes untracked files.
 git bisect: Helps identify which commit introduced a bug.
+git submodule: Manages submodules in a repository.
