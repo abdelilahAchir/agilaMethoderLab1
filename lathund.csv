@@ -1,46 +1,46 @@
-git merge [remote]/[branch]: Merges changes from a remote branch into the current branch.
-git push [remote] [branch]: Pushes committed changes to a remote branch.
-git pull [remote] [branch]: Fetches and merges changes from a remote branch.
-git cherry-pick [commit hash]: Applies the changes made in a specified commit to the current branch.
-git rebase [branch]: Reapplies commits on top of another branch.
-git clone --depth 1 [url]: Clones a remote repository with only the most recent commit.
-git blame [filename]: Shows who made changes to a specified file.
-git clean: Deletes untracked files.
-git bisect: Helps identify which commit introduced a bug.
-git submodule: Manages submodules in a repository.
-git show-branch: Shows the branch structure of a repository.
-git reflog: Lists all actions taken in a repository.
-git archive: Creates a .tar or .zip archive of the repository.
-git log --graph: Displays a graph of the commit history.
-git grep: Searches for text in files in the repository.
-git reset --soft [commit hash]: Resets the repository
-git init, Initializes a new Git repository in the current directory.
-git clone [url], Copies a remote Git repository to your local machine.
-git status, Displays the current status of the repository.
-git add [filename], Adds a file to the staging area.
-git commit -m "message", Commits changes with a message describing the changes.
-git push, Pushes committed changes to a remote repository.
-git pull, Fetches and merges changes from a remote repository.
-git branch, Lists all local branches.
-git branch [branch name], Creates a new branch with the specified name.
-git branch -d [branch name], Deletes a branch.
-git checkout [branch name], Switches to the specified branch.
-git merge [branch name], Merges changes from the specified branch into the current branch.
-git diff, Shows the differences between the working directory and the staging area.
-git log, Displays a log of all commits.
-git reset [filename]: Removes a file from the staging area.
-git reset --hard, Resets the repository to the last commit.
-git revert [commit hash], Reverts changes made in a specified commit.
-git tag, Lists all tags.
-git tag [tag name], Creates a new tag.
-git tag -d [tag name], Deletes a tag.
-git show [commit hash], Shows the changes made in a specified commit.
-git stash, Stashes changes in the working directory for later use.
-git stash apply, Applies the most recent stash.
-git stash list, Lists all stashes.
-git stash drop, Deletes the most recent stash.
-git remote, Lists all remote repositories.
-git remote add [name] [url], Adds a new remote repository.
-git remote rm [name], Removes a remote repository.
-git fetch [remote], Fetches changes from a remote repository.
-git merge [remote]/[branch], Merges changes from a remote branch into the current branch.
+git merge [remote]/[branch], Sammanfogar ändringar från en fjärrgren in i den nuvarande grenen.
+git push [remote] [branch], Skickar inlämnade ändringar till en fjärrgren.
+git pull [remote] [branch], Hämtar och sammanfogar ändringar från en fjärrgren.
+git cherry-pick [commit hash], Tillämpar ändringarna gjorda i en specificerad commit på den nuvarande grenen.
+git rebase [branch], Tillämpar commits ovanpå en annan gren.
+git clone --depth 1 [url], Klonar ett fjärrrepository med endast den senaste commiten.
+git blame [filename], Visar vem som gjorde ändringar till en specifierad fil.
+git clean, Raderar spårningsfria filer.
+git bisect, Hjälper till att identifiera vilken commit som introducerade en bugg.
+git submodule, Hanterar submoduler i ett repository.
+git show-branch, Visar grenstrukturen för ett repository.
+git reflog, Visar en lista på alla åtgärder som tagits i ett repository.
+git archive, Skapar en .tar eller .zip arkivfil av repositoryt.
+git log --graph, Visar en graf över commit-historiken.
+git grep, Söker efter text i filer i repositoryt.
+git reset --soft [commit hash], Återställer repositoryt.
+git init, Initialiserar ett nytt Git-repository i den nuvarande katalogen.
+git clone [url], Kopierar ett fjärr Git-repository till din lokala dator.
+git status, Visar den aktuella statusen för repositoryt.
+git add [filename], Lägger till en fil till stagingområdet.
+git commit -m "meddelande", Commitar ändringar med ett meddelande som beskriver ändringarna.
+git push, Skickar inlämnade ändringar till ett fjärrrepository.
+git pull, Hämtar och sammanfogar ändringar från ett fjärrrepository.
+git branch, Visar alla lokala grenar.
+git branch [gren namn], Skapar en ny gren med det angivna namnet.
+git branch -d [gren namn], Raderar en gren.
+git checkout [gren namn], Byter till den specifierade grenen.
+git merge [gren namn], Sammanfogar ändringar från den specifierade grenen in i den nuvarande grenen.
+git diff, Visar skillnaderna mellan arbetsområdet och stagingområdet.
+git log, Visar en logg över alla commits.
+git reset [filnamn], Tar bort en fil från stagingområdet.
+git reset --hard, Återställer repositoryt till den senaste commiten.
+git revert [commit hash], Återgör ändringar som gjorts i en specificerad commit.
+git tag, Visar alla taggar.
+git tag [tagg namn], Skapar en ny tagg.
+git tag -d [tagg namn], Raderar en tagg.
+git show [commit hash], Visar ändringarna som gjorts i en specificerad commit.
+git stash, Lägger undan ändringar i arbetsområdet för senare användning.
+git stash apply, Tillämp
+git stash list, Visar en lista på alla stashes.
+git stash drop, Tar bort den senaste stashen.
+git remote, Visar en lista på alla remote-repositories.
+git remote add [namn] [url], Lägger till en ny remote-repository.
+git remote rm [namn], Tar bort en remote-repository.
+git fetch [remote], Hämtar ändringar från en remote-repository.
+git merge [remote]/[branch], Sammanför ändringar från en remote-branch till den aktuella branchen.
