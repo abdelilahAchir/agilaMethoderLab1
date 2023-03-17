@@ -1,2 +1,3 @@
 git init, Initializes a new Git repository in the current directory.
 git clone [url], Copies a remote Git repository to your local machine.
+git status, Displays the current status of the repository.
