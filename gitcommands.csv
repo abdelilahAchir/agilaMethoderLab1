@@ -11,3 +11,4 @@ git branch -d [branch name], Deletes a branch.
 git checkout [branch name], Switches to the specified branch.
 git merge [branch name], Merges changes from the specified branch into the current branch.
 git diff, Shows the differences between the working directory and the staging area.
+git log, Displays a log of all commits.
