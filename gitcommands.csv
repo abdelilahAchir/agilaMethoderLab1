@@ -5,3 +5,4 @@ git add [filename], Adds a file to the staging area.
 git commit -m "message": Commits changes with a message describing the changes.
 git push: Pushes committed changes to a remote repository.
 git pull: Fetches and merges changes from a remote repository.
+git branch: Lists all local branches.
