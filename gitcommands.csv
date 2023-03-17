@@ -2,8 +2,9 @@ git init, Initializes a new Git repository in the current directory.
 git clone [url], Copies a remote Git repository to your local machine.
 git status, Displays the current status of the repository.
 git add [filename], Adds a file to the staging area.
-git commit -m "message": Commits changes with a message describing the changes.
-git push: Pushes committed changes to a remote repository.
-git pull: Fetches and merges changes from a remote repository.
-git branch: Lists all local branches.
-git branch [branch name]: Creates a new branch with the specified name.
+git commit -m "message", Commits changes with a message describing the changes.
+git push, Pushes committed changes to a remote repository.
+git pull, Fetches and merges changes from a remote repository.
+git branch, Lists all local branches.
+git branch [branch name], Creates a new branch with the specified name.
+git branch -d [branch name], Deletes a branch.
