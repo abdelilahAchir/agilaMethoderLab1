@@ -10,3 +10,4 @@ git stash list, Lists all stashes.
 git stash drop, Deletes the most recent stash.
 git remote, Lists all remote repositories.
 git remote add [name] [url], Adds a new remote repository.
+git remote rm [name], Removes a remote repository.
